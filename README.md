@@ -112,6 +112,25 @@ docker run -d `
 postgres:latest
 ```
 
+Depois de aplicar os comandos, abra o Docker Desktop. Você verá que o contêiner já está disponível.  
+<img width="1582" height="886" alt="image" src="https://github.com/user-attachments/assets/8a017fc3-0956-4a25-b2ae-144e1cd4b351" />
+
+Para conectar ao banco de dados, vamos utilizar uma ferramenta gratuita chamada pgadmin4, que no meu caso esta na versão 9.8.  
+O pgAdmin 4 é a ferramenta oficial de administração e gerenciamento do PostgreSQL, desenvolvida pela própria equipe do PostgreSQL.  
+É um aplicativo web-based (roda no navegador), mas também pode ser instalado como aplicativo desktop.  
+
+Ele é, basicamente, para o PostgreSQL o que o SQL Server Management Studio (SSMS) é para o SQL Server ou o MySQL Workbench é para o MySQL.  
+  
+Use as credenciais do script para se conectar ao banco de dados.  
+  
+<img width="1600" height="858" alt="image" src="https://github.com/user-attachments/assets/d24c8612-0c51-4258-9937-d0971f523cf1" />
+
+
+
+  Após isso, crie uma tabela conforme abaixo (para salvar as informações digitadas na API)
+  <img width="1649" height="868" alt="image" src="https://github.com/user-attachments/assets/a5293906-2e07-42fa-ae6b-e1a57642231e" />
+
+
 
 ---
 ## 🖥️ Como usar o sistema  
