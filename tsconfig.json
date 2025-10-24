@@ -7,8 +7,8 @@
     "rootDir": "ts",
       "scripts": {
     "build": "tsc",
-    "start": "node js/index.js",
-    "dev": "ts-node ts/index.ts"
+    "start": "node js/Alunos.js",
+    "dev": "ts-node ts/Alunos.ts"
   },
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -16,4 +16,5 @@
     "skipLibCheck": true
   }
 }
+
 
